@@ -61,7 +61,7 @@ t.right(90)
 t.forward(50)
 
 
-# Add another obstacle wall
+# Add obstacle wall 1
 t.penup()
 t.goto(0, 0)
 t.pendown()
@@ -69,9 +69,35 @@ t.forward(50)
 t.right(90)
 t.forward(50)
 
-# Add another obstacle wall
+# Add obstacle wall 2
 t.penup()
 t.goto(50, -50)
+t.pendown()
+t.forward(50)
+t.left(90)
+t.forward(50)
+
+
+
+# Add obstacle wall 3
+t.penup()
+t.goto(25, 25)
+t.pendown()
+t.forward(50)
+t.left(90)
+t.forward(50)
+
+# Add obstacle wall 4
+t.penup()
+t.goto(-25, -25)
+t.pendown()
+t.forward(50)
+t.right(90)
+t.forward(50)
+
+# Add obstacle wall 5
+t.penup()
+t.goto(75, -75)
 t.pendown()
 t.forward(50)
 t.left(90)
