@@ -103,6 +103,38 @@ t.forward(50)
 t.left(90)
 t.forward(50)
 
+# Add obstacle wall 6
+t.penup()
+t.goto(-100, -100)
+t.pendown()
+t.forward(50)
+t.right(90)
+t.forward(50)
+
+# Add obstacle wall 7
+t.penup()
+t.goto(-150, -150)
+t.pendown()
+t.forward(50)
+t.left(90)
+t.forward(50)
+
+# Add obstacle wall 8
+t.penup()
+t.goto(-200, -200)
+t.pendown()
+t.forward(50)
+t.right(90)
+t.forward(50)
+
+# Add obstacle wall 9
+t.penup()
+t.goto(-250, -250)
+t.pendown()
+t.forward(50)
+t.left(90)
+t.forward(50)
+
 # Create an exit
 t.penup()
 t.forward(50)
