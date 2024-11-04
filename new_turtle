@@ -1,0 +1,30 @@
+#new turtle
+import turtle
+navigator = turtle.Turtle()
+#Move the new turtle
+
+navigator.penup()
+navigator.goto(100, -100)  # Starting position
+navigator.pendown()
+
+# color of the new turtle
+navigator.color("red")
+
+import turtle
+
+def move_forward():
+    navigator.forward(10)
+
+def turn_left():
+    navigator.left(90)
+
+def turn_right():
+    navigator.right(90)
+
+screen = turtle.Screen()
+screen.listen()
+screen.onkey(move_forward, "Up")
+screen.onkey(turn_left, "Left")
+screen.onkey(turn_right, "Right")
+
+turtle.mainloop()
